@@ -39,6 +39,8 @@ const Navbar = (props) => {
 		} catch (error) {
 			console.error(error.message);
 		}
+
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	return (
@@ -65,7 +67,7 @@ const Navbar = (props) => {
 							<img
 								onClick={() => navigate("/Profile")}
 								src={userDetails?.image ? userDetails.image : defaulticon}
-								alt="Your Photo "
+								alt="User Profile Icon"
 							/>
 						</div>
 					</div>

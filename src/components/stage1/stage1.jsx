@@ -58,7 +58,7 @@ const Stage1 = ({ aadhaarNumber, setAadhaarNumber, setStage }) => {
 						<h5>Consent Agreement</h5>
 						<p>
 							By proceeding, you agree to the{" "}
-							<a
+							<a rel="noreferrer"
 								href="https://uhi.abdm.gov.in/home/terms_condition"
 								target="_blank">
 								terms and conditions
